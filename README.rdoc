@@ -1,0 +1,21 @@
+= Detroit MiniTest Tool
+
+
+== DESCRIPTION
+
+MiniTest test runner tool can run your Ruby tests.
+
+
+== INSTALL
+
+  $ gem install detroit-minitest
+
+
+== COPYRIGHT
+
+Copyright (c) 2011 Thomas Sawyer
+
+GPL v.3 license
+
+See COPYING.rdoc and GPL3.txt file for details.
+
