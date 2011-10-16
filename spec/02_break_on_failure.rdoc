@@ -1,0 +1,25 @@
+== Break On Failure
+
+The Detroit test service should terminate when tests fail.
+
+Given a test file called "test_example.rb" containing:
+
+  class TestFailure < MiniTest::Unit::TestCase
+    def test_failure
+      assert(1 == 2)
+    end
+  end
+
+We can demonstrate this feature of the Detroit MiniTest plug-in via code.
+
+  tester = Detroit::MiniTest.new(:tests=>['test_example.rb'])
+
+Since the test has an assertion failure, running the tests
+should cause execution to abort.
+
+  expect SystemExit do
+    silently {
+      tester.test
+    }
+  end
+

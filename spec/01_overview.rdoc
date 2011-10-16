@@ -1,0 +1,10 @@
+= Detroit MiniTest
+
+== Overview
+
+Detroit MiniTest is a plug-in for the Detroit build tool.
+
+The plugin itself is being tested using a top-down approach
+with the QED test framework. Each section represents a
+scenario deemed significant to test.
+
