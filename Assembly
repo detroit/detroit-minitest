@@ -1,0 +1,39 @@
+---
+gem:
+  active: true
+
+dnote:
+  title: DEVELOPER NOTES
+  output: log/NOTES.rdoc
+
+qed:
+  files: spec/
+
+qedoc:
+  files : spec/*.rdoc
+  title : Detroit MiniTest
+  output: SPEC.rdoc
+
+locat:
+  active: false
+
+yard:
+  active   : true
+  service  : yard
+  readme   : [ "README.rdoc" ]
+  topfiles : [ "[A-Z]*.*" ]
+  files    : [ lib ]
+  exclude  : [ lib/*.yml ]
+  output   : doc
+  extra    : ~
+  priority : 1
+
+github:
+  active: true
+
+announce:
+  service: email
+  mailto : 
+    - transfire@gmail.com
+    - ruby-talk@ruby-lang.org
+
