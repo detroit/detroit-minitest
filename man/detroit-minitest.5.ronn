@@ -10,7 +10,7 @@ standard test phase.
 ## OPTIONS
 
 The following options can be used in the Detroit assembly file
-for defining a dnote service.
+for defining a MiniTest service.
 
   * `tests` - Test files to include.
 
@@ -37,13 +37,22 @@ A typical example would look something like:
       extra: '| tapout pretty'
 
 
+## RESOURCES
+
+For more information:
+
+  * [API Documentation](http://rubydoc.info/gems/detroit-minitest)
+
+  * [Development Site](http://github.com/detroit/detroit-minitest)
+
+
 ## COPYRIGHT
 
 Copyright (c) 2010 Thomas Sawyer, Rubyworks
 
-Detroit DNote is distributable in accordance with the GPLv3 license.
+Detroit MiniTest is distributable in accordance with the GPLv3 license.
 
 
 ## SEE ALSO
 
-dnote(1)
+detroit(1), ruby(1)
