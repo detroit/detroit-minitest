@@ -1,0 +1,49 @@
+detroit-minitest(5) - ruby minitest-based test via detroit
+==========================================================
+
+## DESCRIPTION
+
+MiniTest test runner tool can run your Ruby tests during the
+standard test phase.
+
+
+## OPTIONS
+
+The following options can be used in the Detroit assembly file
+for defining a dnote service.
+
+  * `tests` - Test files to include.
+
+  * `exclude` - Files or globs to exclude.
+
+  * `ignore` - Files to ignore by matching filename.
+
+  * `loadpath` - Directories to add to`$LOAD_PATH`. Defaults to `['lib']`.
+
+  * `requires` - Scripts to require before running tests.
+
+  * `extra` - Extra command line options to append to command.
+
+
+## EXAMPLES
+
+A typical example would look something like:
+
+    minitest:
+      tests: spec/*_spec.rb
+      loadpath:
+        - lib
+        - spec
+      extra: '| tapout pretty'
+
+
+## COPYRIGHT
+
+Copyright (c) 2010 Thomas Sawyer, Rubyworks
+
+Detroit DNote is distributable in accordance with the GPLv3 license.
+
+
+## SEE ALSO
+
+dnote(1)

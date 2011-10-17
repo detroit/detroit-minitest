@@ -116,6 +116,12 @@ module Detroit
       end
     end
 
+  public
+
+    def self.man_page
+      File.dirname(__FILE__)+'/../man/detroit-minitest.5'      
+    end
+
   end
 
 end
