@@ -60,12 +60,23 @@ module Detroit
     #
     attr_accessor :extra
 
-    #  A S S E M B L Y  S T A T I O N S
+
+    #  A S S E M B L Y  M E T H O D S
 
     #
-    def station_test
-      test
+    def assemble?(station, options={})
+      case station
+      when :test then true
+      end
     end
+
+    #
+    def assemble(station, options={})
+      case station
+      when :test then test
+      end
+    end
+
 
     #  S E R V I C E  M E T H O D S
 
