@@ -12,7 +12,7 @@ qed:
 qedoc:
   files : spec/*.rdoc
   title : Detroit MiniTest
-  output: SPEC.rdoc
+  output: SPECS.rdoc
 
 locat:
   active: false
@@ -29,7 +29,7 @@ yard:
   priority : 1
 
 github:
-  active: true
+  folder: web
 
 announce:
   service: email

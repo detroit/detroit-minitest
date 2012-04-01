@@ -1,0 +1,10 @@
+#!mast .ruby bin lib man qed test [A-Z]*.*
+.ruby
+lib/detroit-minitest.rb
+man/detroit-minitest.5
+man/detroit-minitest.5.html
+man/detroit-minitest.5.ronn
+LICENSE.txt
+README.rdoc
+COPYING.rdoc
+SPECS.rdoc

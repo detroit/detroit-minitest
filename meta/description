@@ -1,0 +1,1 @@
+Detroit MiniTest is a plugin for the Detroit build system for runing MiniTest-based tests during the standard test phase. Can also be used as a stand-alone tool in Ruby scripts.
