@@ -12,6 +12,14 @@ requirements:
 - name: detroit
   version: 0.3.0+
 - name: minitest
+- name: qed
+  groups:
+  - test
+  development: true
+- name: ae
+  groups:
+  - test
+  development: true
 dependencies: []
 alternatives: []
 conflicts: []
