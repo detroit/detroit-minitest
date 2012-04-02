@@ -25,7 +25,7 @@ revision: 0
 created: '2011-10-16'
 summary: MiniTest plugin for Detroit
 title: Detroit MiniTest
-version: 0.1.0
+version: 0.2.0
 name: detroit-minitest
 suite: detroit
 description: Detroit MiniTest is a plugin for the Detroit build system for runing
