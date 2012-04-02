@@ -9,8 +9,9 @@ copyrights:
   year: '2011'
   license: GPL3
 requirements:
-- name: minitest
 - name: detroit
+  version: 0.3.0+
+- name: minitest
 dependencies: []
 alternatives: []
 conflicts: []
